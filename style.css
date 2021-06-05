@@ -1,5 +1,5 @@
 body{
-    background-image: url(img2.jpeg);
+  
 }
 #nav {
     align-items: right;
@@ -9,4 +9,13 @@ body{
     font-style: italic;
     text-decoration: none;
     color: #fff;
+}
+#home{
+    color: black;
+    font-weight: 700
+}
+img{
+    height: 400px;
+    width: 550px;
+    
 }
