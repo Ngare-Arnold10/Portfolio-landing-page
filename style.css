@@ -1,5 +1,7 @@
 body{
-  
+  background-image: url(/images/img5.jpeg);
+  background-attachment: fixed;
+
 }
 #nav {
     align-items: right;
@@ -17,5 +19,45 @@ body{
 img{
     height: 400px;
     width: 550px;
-    
+}
+
+.skills {
+    margin-top: 4rem;
+}
+
+.skill h1{
+    font-size: 1.9rem;
+    margin-bottom: .5rem;
+}
+
+.skill.header-text p {
+    font-size: .8rem;
+    color: #ccc;
+    line-height: 1.4rem;
+    font-weight: 500;
+}
+.skill-grid.h1-text {
+    margin-bottom: 2.3rem;
+}
+
+.skill-grid{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-column-gap: 3.3rem ;
+    margin-bottom: 2rem;
+}
+
+.skill-item {
+    box-shadow: 5px 5px 20px rgba(0,0,0,0.2);
+    border-radius: 10px;
+}
+
+.skill-item h2{
+    font-size: 1.3rem;
+    margin-bottom: .5rem;
+}
+
+.skill-item p {
+    font-size: .8rem;
+    line-height: 1.4rem;
 }
