@@ -61,21 +61,30 @@ img{
     font-size: .8rem;
     line-height: 1.4rem;
 }
-.hobbies{
-    
-}
 .work-part{
     display: block;
     margin-top: 8rem;
     flex-direction: column;
     grid-template-columns: repeat(2,1fr);
+    margin-bottom: 3px;
+    border: 5px outset rgb(238, 233, 233);
+    background-color: rgb(247, 251, 253);    
+    text-align: center;
+    width: 600px;
 }
 #work-samples{
     text-align: left;
     height: 200px;
     width: 250px;
 }
-#work-icon{
-    text-align: right;
-    padding-top: 0px;
+#ktn{
+    height: 200px;
+    width: 250px;
+
+}
+.about-me{
+    border: 5px outset rgb(94, 82, 82);
+    background-color: rgb(255, 255, 255);    
+    text-align: center;
+
 }
