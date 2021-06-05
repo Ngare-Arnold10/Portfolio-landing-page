@@ -85,6 +85,16 @@ img{
 .about-me{
     border: 5px outset rgb(94, 82, 82);
     background-color: rgb(255, 255, 255);    
-    text-align: center;
+    width: 500px;
+    align-items: center;
 
+}
+.footer{
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-family: italic bold;
+    font-weight: 400;
 }
