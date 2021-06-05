@@ -61,12 +61,21 @@ img{
     font-size: .8rem;
     line-height: 1.4rem;
 }
+.hobbies{
+    
+}
 .work-part{
-    display: grid;
+    display: block;
+    margin-top: 8rem;
+    flex-direction: column;
+    grid-template-columns: repeat(2,1fr);
 }
-#fav-band{
-
+#work-samples{
+    text-align: left;
+    height: 200px;
+    width: 250px;
 }
-#ktcn{
-    margin-top: 0%;
+#work-icon{
+    text-align: right;
+    padding-top: 0px;
 }
