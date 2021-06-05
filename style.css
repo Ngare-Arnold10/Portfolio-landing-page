@@ -1,0 +1,12 @@
+body{
+    background-image: url(img2.jpeg);
+}
+#nav {
+    align-items: right;
+    justify-content: space-between;
+    margin-left: 100px;
+    font-size: 30px;
+    font-style: italic;
+    text-decoration: none;
+    color: #fff;
+}
